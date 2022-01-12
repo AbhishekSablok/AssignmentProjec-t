@@ -173,7 +173,7 @@ namespace AssignmentProject.Controllers
                 var response = new PagedApiResponse
                 {
                     Status = Constants.Success,
-                    StatusMessage = "Success while getting pallets data.",
+                    StatusMessage = "Success while getting user data.",
                     HttpStatus = System.Net.HttpStatusCode.OK,
                     Paging = new PagingData
                     {
@@ -212,7 +212,7 @@ namespace AssignmentProject.Controllers
                 var response = new PagedApiResponse
                 {
                     Status = Constants.Success,
-                    StatusMessage = "Success while getting pallets data.",
+                    StatusMessage = "Success while getting User data.",
                     HttpStatus = System.Net.HttpStatusCode.OK,
                     Paging = new PagingData
                     {
