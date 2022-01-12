@@ -203,8 +203,8 @@ namespace AssignmentProject.Controllers
         /// <param name="Username"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("[action]", Name = "GetUserByaAme")]
-        public async Task<IActionResult> GetUserByaAme([FromQuery] PagingParameters pagingParameters, string Username)
+        [Route("[action]", Name = "GetUserByName")]
+        public async Task<IActionResult> GetUserByName([FromQuery] PagingParameters pagingParameters, string Username)
         {
             try
             {
